@@ -1,0 +1,7 @@
+# my-repository
+
+const isReverse = (x) => {
+  x = x + ''; /// Type coercion
+  const el = x.split('').reverse().join('');
+  return el === x;
+};
